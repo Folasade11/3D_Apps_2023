@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Swap Page Contents Functions</title>
+    <script type="text/javascript">
+        var counter = 0;
+        function swap(selected)
+        {
+         //the div ids won't display when the page loads
+         document.getElementById('home').style.display = 'none';
+         document.getElementById('coke').style.display = 'none';
+         document.getElementById('sprite').style.display = 'none';
+         document.getElementById('pepper').style.display = 'none';
+   //then display the selected page
+         document.getElementById(selected).style.display = 'block';
+        }
+      function changeLook()
+      {
+        //change page style dynamically
+        document.getElementById('theme').style.backgroundColor = '#770000';
+        document.getElementById('theme').style.fontFamily = 'arial, sans-serif';
+        document.getElementById('theme').style.color = '#ffffff';
+      } 
+      function countUp()
+      {
+        //incremental counter code 
+        counter += 1;
+        //assign the counter value to the result html
+        document.getElementById('result').innerHTML =  counter;
+      } 
+      function changeColor(newColor)
+      {
+        var elem = document.getElementById('para1');
+        elem.style.color = newColor;
+      }
+    </script>
+</head>
+<body id="theme">
+    <!--Navigation buttons-->
+    <p>
+        <a href="javascript:swap('home')">Home</a> |
+        <a href="javascript:swap('coke')">Coca Cola</a> |
+        <a href="javascript:swap('sprite')">Sprite</a> |
+        <a href="javascript:swap('pepper')">Dr Pepper</a> |
+    </p>
+
+    <!--SIngle page contents. Initially, the homepage is displayed until any of the button is clicked -->
+    <div id="home"><b>Home:</b> Welcome to my basic 3D App </div>
+    <div id="coke" style="display:none;"><b>Coca Cola:</b> Check out my Coke 3D model </div>
+    <div id="sprite" style="display:none;"><b>Sprite:</b> Check out my Sprite 3D model </div>
+    <div id="pepper" style="display:none;"><b>Dr Pepper:</b> Check out my Dr Pepper 3D model </div>
+
+    <!---code for counters goes here-->
+    <p>
+        Click <a href="javascript:countUp()">here</a> to count.
+        <div id="result"></div>
+    </p>
+    <!--Simple button that changes look of the page-->
+    <p><input type="button" value="Click Me!" onclick="changeLook()"> to restyle the page</p>
+
+    <p id="para1">This paragraph styling is dynamic</p>
+    <button onclick="changeColor('green')">Green</button>
+    <button onclick="changeColor('red')">Red</button>
+</body>
+</html>

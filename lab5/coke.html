@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-
+to-fit=no">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <!--my custom css-->
+    <link href="assets/css/custom.css" rel="stylesheet">
+    <!--Fonts-->
+<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Oswald" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!--X3d links-->
+<link rel="stylesheet" type="text/css" 
+href="https://www.x3dom.org/x3dom/release/x3dom.css">  </link>
+<script type="text/javascript" src="https://www.x3dom.org/x3dom/release/x3dom.js"></script>
+  <!-- <link rel="stylesheet" href="assets/css/bootstrap.min.css"> -->
+  <title>Coke 3D App</title>
+  <style>
+    .contents{
+        width: 700px;
+        border: 5px solid gray;
+        background: lightblue;
+        padding: 30px;
+        margin: 20px;
+    }
+    #modelStyle {
+        border: double;
+        width: 500px;
+        background: lightgrey;
+
+        margin-left: inherit
+    }
+    .centre {
+        text-align: center;
+    }
+    p.centre {
+        text-align: center;
+        color: red;
+        font-weight: bold;
+    }
+    p {
+        margin-left: 10px;
+    }
+    .textBox{
+        padding: 10px;
+    }
+    .card{
+      background-color: aquamarine;
+    }
+</style>
+
+</head>
+
+<body style="background-color: aquamarine;">
+
+  <div class="container-fluid">
+    
+    <nav class="navbar sticky-top navbar-expand-sm navbar_coca_cola">
+      
+      <div class="container-fluid">
+        <div class="logo">
+          <a class="navbar-brand" href="#"> 
+            <h1>1</h1>
+            <h1>Coca</h1>
+            <h2>Cola</h2>
+            <h3>Journey</h3>
+            <p>Refreshing the world, one story at a time</p>
+          </a>
+        </div>
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Drinks
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Cocacola</a></li>
+                <li><a class="dropdown-item" href="#">Sprite</a></li>
+                <li><a class="dropdown-item" href="#">Dr. Pepper</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <br>
+
+
+    <!--Main body -->
+    <div class="conatainer main_contents">
+      <div class="row"> <!-- Main_3D Image or Carousel -->
+        <div class="col-xs-12 col-sm-12">
+          <div id="main_3d_image">
+            <div id="main_text" class="col-xs-12 col-sm-4">
+              <h2>Coca Cola Great Britain</h2>
+              <h3>Founded by Dr John S Perberton</h3>
+              <p>Founded in 1886 by pharmacist Dr John S Pemberton in Atlanta, Georgia, The Coca‑Cola Company is the world's leading manufacturer, marketer and distributor of non-alcoholic beverage concentrates and syrups, and produces nearly 400 brands. </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <br> <!-- Temporary break until we style the template -->
+      <!--this row hold the x3d image and gallery-->
+      <div class="row">
+        <div class="col-sm-10">
+            <div class="card text-left">
+                <div class="card-header" >
+                    <ul class="nav nav-tabs card-header-tabs" >
+                        <li class="nav-item">
+                            <a href="coke.html" class="nav-link active">Coke</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="sprite.html" class="nav-link active">Sprite</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="pepper.html" class="nav-link active">Pepper</a>
+                        </li>
+                    </ul>
+                </div>
+                <!--<div id="main-3d-image">
+                    3d image goes here
+                </div>-->
+                <div class="card-body" >
+                    <h4 class="card-title">Cocacola X3D Model</h4>
+                    <div class="model3D">
+                      <x3d>
+                          <scene>
+                              <inline url="assets/MODEL/tex/coke_can.x3d"></inline>
+                          </scene>
+                      </x3d>
+                  </div>
+                    <p class="card-text">This x3d model of the coke can has been created in 3ds Max,
+                        exported to VRML97 and converted, using the instant reality transcoders, to the X3D for display online.
+                    </p>
+                    <p class="card-text">These buttons select a range of X3D model viewpoints</p>
+                      <div class="btn-group ">
+                          <a href="#" class="btn btn-primary btn-responsive camera-font">Front</a>
+                          <a href="#" class="btn btn-secondary btn-responsive camera-font">Back</a>
+                          <a href="#" class="btn btn-success btn-responsive camera-font">Left</a>
+                          <a href="#" class="btn btn-danger btn-responsive camera-font">Right</a>
+                          <a href="#" class="btn btn-warning btn-responsive camera-font">Top</a>
+                          <a href="#" class="btn btn-outline-dark disabled btn-responsive camera-font">Off</a>
+                     </div>
+                  
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-2">
+            <div class="card text-left">
+                <div class="card-header">
+                    3D image gallery
+                </div>
+            
+                <div class="card-body">
+                    <div>
+                        <a href="coke.html">
+                            <img src="assets/images/coca_cola.jpg" alt="Coca cola" class="card-image-top img-fluid img-thumbnail">
+                        </a>
+                        <a href="coke.html">
+                            <img src="assets/images/sprite.jpg" alt="Sprite" class="card-image-top img-fluid img-thumbnail">
+                        </a>
+                        <a href="coke.html">
+                            <img src="assets/images/dr_pepper.jpg" alt="Dr Pepper" class="card-image-top img-fluid img-thumbnail">
+                        </a>
+                        <p class="card-text">3D images rendered in 3ds Max 2023 with Mental Ray</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+      <!-- Row of cards on the grid -->
+      <div class="row">
+        <!-- Coca Cola Column -->
+        <div class="col-sm-12">
+          <div class="card">
+            <a href="#">
+               
+            </a>
+            <div class="card-body">
+                 <h3 class="card-title">Coca Cola</h3>
+                 <p class="card-text">
+                  History of Coca Cola: 1886-1892
+Atlanta Beginnings: It was 1886, and in New York Harbour, workers were constructing the Statue of Liberty. Eight hundred miles away, another great American symbol was about to be unveiled.
+Like many people who change history, John Pemberton, an Atlanta pharmacist, was inspired by simple curiosity. 
+
+                </p>
+                <a href="#" class="btn btn-primary">Find out more...</a> 
+            </div> 
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+
+<!--3D app footer-->
+<nav class="navbar navbar-expand-sm footer">
+  <div class="container-fluid">
+    <div class="navbar-text float-left copyright">
+      <p><span class="align-baseline">Copyright 2023 Mobile Web 3D Application</span></p>
+    </div>
+    <div class="navbar-text float-right social">
+      <a href="#"><i class="fab fa-facebook-square fa-2x"></i></a>
+      <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+      <a href="#"><i class="fab fa-facebook square fa-2x"></i></a>
+      <a href="#"><i class="fab fa-github-square fa-2x"></i></a>
+    </div>
+  </div>
+</nav>
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+
+  <!-- <script src="js/jquery-3.5.1.js"></script> -->
+  <!--  <script src="js/popper.min.js"></script> -->
+  <!-- <script src="assets/js/bootstrap.js"></script> -->
+</body>
+
+</html>

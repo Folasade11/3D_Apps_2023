@@ -1,0 +1,35 @@
+#gallery{
+    width:50px;
+}
+#gallery_cell{
+padding:0px;
+backgroung:ivory;
+border: 1px solid red;
+min-width:100px;
+height:80px;
+text-align:center;
+border-radius:10px;
+}
+#image_thumbnail{
+    max-width:100px;
+    max-height:80px;
+}
+.img-thumbnail{
+    padding:0.25rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius:0.25rem;
+    max-height: 100%;
+    height: auto;
+}
+.gallery .img-thumbnail{
+    background-color: rgba(255, 255, 255, 0.0);
+    padding:0.25rem;
+    margin: 5px;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    max-width: 43%;
+    height: auto;
+}
