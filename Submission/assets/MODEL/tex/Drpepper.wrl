@@ -1,0 +1,371 @@
+#VRML V2.0 utf8
+
+#Created by Cinema 4D
+
+DEF Camera_3 Transform {
+  translation -519.27142 57.263917 -2298.354151
+  rotation 0.006414 -0.999948 -0.00795 1.357755
+  children [ 
+    DEF View_Camera_3 Viewpoint {
+      position 0 0 0
+      orientation 0 -1 0 1.570796
+      fieldOfView 0.927295
+      jump TRUE
+      description "Camera_3"
+    }
+  ]
+}
+DEF Camera_2 Transform {
+  translation -519.416442 3.813645 -2299.024377
+  rotation 0.006414 -0.999948 -0.00795 1.357755
+  children [ 
+    DEF View_Camera_2 Viewpoint {
+      position 0 0 0
+      orientation 0 -1 0 1.570796
+      fieldOfView 0.927295
+      jump FALSE
+      description "Camera_2"
+    }
+  ]
+}
+DEF Camera_1 Transform {
+  translation -519.105064 118.577298 -2297.585328
+  rotation 0.006414 -0.999948 -0.00795 1.357755
+  children [ 
+    DEF View_Camera_1 Viewpoint {
+      position 0 0 0
+      orientation 0 -1 0 1.570796
+      fieldOfView 0.927295
+      jump FALSE
+      description "Camera_1"
+    }
+  ]
+}
+DEF Camera Transform {
+  translation -519.537931 -40.963253 -2299.585845
+  rotation 0.006414 -0.999948 -0.00795 1.357755
+  children [ 
+    DEF View_Camera Viewpoint {
+      position 0 0 0
+      orientation 0 -1 0 1.570796
+      fieldOfView 0.927295
+      jump FALSE
+      description "Camera"
+    }
+  ]
+}
+DEF Cloner_1 Transform {
+  translation 20.760933 -199.381627 9.831592
+  children [ 
+    DEF Light_0 Transform {
+      translation -200 0 -200
+      children [ 
+        DEF LIGHT_Light_0 PointLight {
+          location 0 0 0
+          radius 100000000
+          color 0.57735 0.57735 0.57735
+          intensity 1.732051
+          on TRUE
+        }
+      ]
+    }
+    DEF Light_1 Transform {
+      translation -200 0 0
+      children [ 
+        DEF LIGHT_Light_1 PointLight {
+          location 0 0 0
+          radius 100000000
+          color 0.57735 0.57735 0.57735
+          intensity 1.732051
+          on TRUE
+        }
+      ]
+    }
+    DEF Light_2 Transform {
+      translation -200 0 200
+      children [ 
+        DEF LIGHT_Light_2 PointLight {
+          location 0 0 0
+          radius 100000000
+          color 0.57735 0.57735 0.57735
+          intensity 1.732051
+          on TRUE
+        }
+      ]
+    }
+    DEF Light_3 Transform {
+      translation 0 0 -200
+      children [ 
+        DEF LIGHT_Light_3 PointLight {
+          location 0 0 0
+          radius 100000000
+          color 0.57735 0.57735 0.57735
+          intensity 1.732051
+          on TRUE
+        }
+      ]
+    }
+    DEF Light_4 Transform {
+      children [ 
+        DEF LIGHT_Light_4 PointLight {
+          location 0 0 0
+          radius 100000000
+          color 0.57735 0.57735 0.57735
+          intensity 1.732051
+          on TRUE
+        }
+      ]
+    }
+    DEF Light_5 Transform {
+      translation 0 0 200
+      children [ 
+        DEF LIGHT_Light_5 PointLight {
+          location 0 0 0
+          radius 100000000
+          color 0.57735 0.57735 0.57735
+          intensity 1.732051
+          on TRUE
+        }
+      ]
+    }
+    DEF Light_6 Transform {
+      translation 200 0 -200
+      children [ 
+        DEF LIGHT_Light_6 PointLight {
+          location 0 0 0
+          radius 100000000
+          color 0.57735 0.57735 0.57735
+          intensity 1.732051
+          on TRUE
+        }
+      ]
+    }
+    DEF Light_7 Transform {
+      translation 200 0 0
+      children [ 
+        DEF LIGHT_Light_7 PointLight {
+          location 0 0 0
+          radius 100000000
+          color 0.57735 0.57735 0.57735
+          intensity 1.732051
+          on TRUE
+        }
+      ]
+    }
+    DEF Light_8 Transform {
+      translation 200 0 200
+      children [ 
+        DEF LIGHT_Light_8 PointLight {
+          location 0 0 0
+          radius 100000000
+          color 0.57735 0.57735 0.57735
+          intensity 1.732051
+          on TRUE
+        }
+      ]
+    }
+  ]
+}
+DEF Cloner Transform {
+  translation 0 339.070623 0
+  children [ 
+    DEF Light_01 Transform {
+      translation -200 0 -200
+      children [ 
+        DEF LIGHT_Light_01 PointLight {
+          location 0 0 0
+          radius 100000000
+          color 0.57735 0.57735 0.57735
+          intensity 1.732051
+          on TRUE
+        }
+      ]
+    }
+    DEF Light_11 Transform {
+      translation -200 0 0
+      children [ 
+        DEF LIGHT_Light_11 PointLight {
+          location 0 0 0
+          radius 100000000
+          color 0.57735 0.57735 0.57735
+          intensity 1.732051
+          on TRUE
+        }
+      ]
+    }
+    DEF Light_21 Transform {
+      translation -200 0 200
+      children [ 
+        DEF LIGHT_Light_21 PointLight {
+          location 0 0 0
+          radius 100000000
+          color 0.57735 0.57735 0.57735
+          intensity 1.732051
+          on TRUE
+        }
+      ]
+    }
+    DEF Light_31 Transform {
+      translation 0 0 -200
+      children [ 
+        DEF LIGHT_Light_31 PointLight {
+          location 0 0 0
+          radius 100000000
+          color 0.57735 0.57735 0.57735
+          intensity 1.732051
+          on TRUE
+        }
+      ]
+    }
+    DEF Light_41 Transform {
+      children [ 
+        DEF LIGHT_Light_41 PointLight {
+          location 0 0 0
+          radius 100000000
+          color 0.57735 0.57735 0.57735
+          intensity 1.732051
+          on TRUE
+        }
+      ]
+    }
+    DEF Light_51 Transform {
+      translation 0 0 200
+      children [ 
+        DEF LIGHT_Light_51 PointLight {
+          location 0 0 0
+          radius 100000000
+          color 0.57735 0.57735 0.57735
+          intensity 1.732051
+          on TRUE
+        }
+      ]
+    }
+    DEF Light_61 Transform {
+      translation 200 0 -200
+      children [ 
+        DEF LIGHT_Light_61 PointLight {
+          location 0 0 0
+          radius 100000000
+          color 0.57735 0.57735 0.57735
+          intensity 1.732051
+          on TRUE
+        }
+      ]
+    }
+    DEF Light_71 Transform {
+      translation 200 0 0
+      children [ 
+        DEF LIGHT_Light_71 PointLight {
+          location 0 0 0
+          radius 100000000
+          color 0.57735 0.57735 0.57735
+          intensity 1.732051
+          on TRUE
+        }
+      ]
+    }
+    DEF Light_81 Transform {
+      translation 200 0 200
+      children [ 
+        DEF LIGHT_Light_81 PointLight {
+          location 0 0 0
+          radius 100000000
+          color 0.57735 0.57735 0.57735
+          intensity 1.732051
+          on TRUE
+        }
+      ]
+    }
+  ]
+}
+DEF Cylinder Transform {
+  children [ 
+    Shape {
+      appearance DEF MAT_Mat Appearance {
+        material Material {
+          ambientIntensity 0.2
+          diffuseColor 0.5 0.5 0.5
+          specularColor 0.025 0.025 0.025
+          emissiveColor 0 0 0
+          shininess 0.025
+          transparency 0
+        }
+        texture ImageTexture {
+          url "DrPepper2.jpeg"
+          repeatS TRUE
+          repeatT TRUE
+        }
+      }
+      geometry DEF FACESET_Cylinder IndexedFaceSet {
+        ccw FALSE
+        solid FALSE
+        creaseAngle 0.698132
+        coord Coordinate {
+          point [ 0 -150 0,-77.229026 150 63.526983,-30.194856 -150 47.28708,-53.818251 150 84.282832,-14.104503 -150 54.303409,
+            -25.139371 150 96.788491,3.366497 -150 56.004142,6.000326 150 99.819818,20.507961 -150 52.2228,36.552669 150 93.080086,
+            35.641962 -150 43.329526,63.526983 150 77.229026,47.28708 -150 30.194856,84.282832 150 53.818251,54.303409 -150 14.104503,
+            96.788491 150 25.139371,56.004142 -150 -3.366497,99.819818 150 -6.000326,52.2228 -150 -20.507961,93.080086 150 -36.552669,
+            43.329526 -150 -35.641962,77.229026 150 -63.526983,30.194856 -150 -47.28708,53.818251 150 -84.282832,14.104503 -150 -54.303409,
+            25.139371 150 -96.788491,-3.366497 -150 -56.004142,-6.000326 150 -99.819818,-20.507961 -150 -52.2228,-36.552669 150 -93.080086,
+            -35.641962 -150 -43.329526,-63.526983 150 -77.229026,-47.28708 -150 -30.194856,-84.282832 150 -53.818251,-54.303409 -150 -14.104503,
+            -96.788491 150 -25.139371,-56.004142 -150 3.366497,-99.819818 150 6.000326,-52.2228 -150 20.507961,-93.080086 150 36.552669,
+            -43.329526 -150 35.641962
+          ]
+        }
+        texCoord TextureCoordinate {
+          point [ 0.5 0,0.94893 0.998839,0.780526 0,0.998873 -0.000663,
+            0 -0.000663,0.998873 0.998839,0 0.998839,0.049944 -0.000663,0.766796 0,
+            0.049944 0.998839,0.099887 -0.000663,0.72695 0,0.099887 0.998839,0.149831 -0.000663,
+            0.664889 0,0.149831 0.998839,0.199775 -0.000663,0.586687 0,0.199775 0.998839,
+            0.249718 -0.000663,0.5 0,0.249718 0.998839,0.299662 -0.000663,0.413313 0,
+            0.299662 0.998839,0.349606 -0.000663,0.335111 0,0.349606 0.998839,0.399549 -0.000663,
+            0.27305 0,0.399549 0.998839,0.449493 -0.000663,0.233204 0,0.449493 0.998839,
+            0.499437 -0.000663,0.219474 0,0.499437 0.998839,0.54938 -0.000663,0.233204 0,
+            0.54938 0.998839,0.599324 -0.000663,0.27305 0,0.599324 0.998839,0.335111 0,
+            0.649268 -0.000663,0.649268 0.998839,0.413313 0,0.699211 -0.000663,0.699211 0.998839,
+            0.5 0,0.749155 -0.000663,0.749155 0.998839,0.586687 0,0.799099 -0.000663,
+            0.799099 0.998839,0.664889 0,0.849042 -0.000663,0.849042 0.998839,0.72695 0,
+            0.898986 -0.000663,0.898986 0.998839,0.766796 0,0.94893 -0.000663
+          ]
+        }
+        coordIndex [ 0,2,4,-1,2,3,5,4,-1,40,1,3,2,-1,0,4,6,-1,
+          4,5,7,6,-1,0,40,2,-1,0,6,8,-1,6,7,9,8,-1,
+          38,39,1,40,-1,0,8,10,-1,8,9,11,10,-1,0,38,40,-1,
+          0,10,12,-1,10,11,13,12,-1,36,37,39,38,-1,0,12,14,-1,
+          12,13,15,14,-1,0,36,38,-1,0,14,16,-1,14,15,17,16,-1,
+          34,35,37,36,-1,0,16,18,-1,16,17,19,18,-1,0,34,36,-1,
+          0,18,20,-1,18,19,21,20,-1,32,33,35,34,-1,0,20,22,-1,
+          20,21,23,22,-1,0,32,34,-1,0,22,24,-1,22,23,25,24,-1,
+          30,31,33,32,-1,0,24,26,-1,24,25,27,26,-1,0,30,32,-1,
+          0,26,28,-1,26,27,29,28,-1,28,29,31,30,-1,0,28,30,-1
+        ]
+        texCoordIndex [ 0,2,8,-1,4,6,9,7,-1,62,1,5,3,-1,0,8,11,-1,
+          7,9,12,10,-1,0,61,2,-1,0,11,14,-1,10,12,15,13,-1,
+          59,60,1,62,-1,0,14,17,-1,13,15,18,16,-1,0,58,61,-1,
+          0,17,20,-1,16,18,21,19,-1,56,57,60,59,-1,0,20,23,-1,
+          19,21,24,22,-1,0,55,58,-1,0,23,26,-1,22,24,27,25,-1,
+          53,54,57,56,-1,0,26,29,-1,25,27,30,28,-1,0,52,55,-1,
+          0,29,32,-1,28,30,33,31,-1,50,51,54,53,-1,0,32,35,-1,
+          31,33,36,34,-1,0,49,52,-1,0,35,38,-1,34,36,39,37,-1,
+          47,48,51,50,-1,0,38,41,-1,37,39,42,40,-1,0,46,49,-1,
+          0,41,43,-1,40,42,45,44,-1,44,45,48,47,-1,0,43,46,-1
+        ]
+      }
+    }
+  ]
+}
+DEF Timer TimeSensor {
+  startTime 0
+  stopTime 0
+  cycleInterval 3
+  loop TRUE
+}
+DEF ROTKEY_Cylinder OrientationInterpolator {
+  key [ 0,0.333333,0.666667,1,
+  ]
+  keyValue [ 0 -1 0 0,0 1 0 1.907685,0 -1 0 1.816677,0 -1 0 0,
+    
+  ]
+}
+ROUTE Timer.fraction_changed TO ROTKEY_Cylinder.set_fraction
+ROUTE ROTKEY_Cylinder.value_changed TO Cylinder.set_rotation
