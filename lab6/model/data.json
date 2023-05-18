@@ -1,0 +1,53 @@
+{
+    "pageTextData":[
+{
+    "title":"Coca-Cola Great Britain",
+    "subTitle":"Founded by Dr John S. Perberton",
+    "description":"Founded in 1886 by pharmacist Dr John S Pemberton in Atlanta, Georgia, The Coca‑Cola Company is the world's leading manufacturer, marketer and distributor of non-alcoholic beverage concentrates and syrups, and produces nearly 400 brands."
+},
+{
+    "title":"Coca Cola",
+    "subTitle":"New York Harbour, 1866",
+    "description":"History of Coca Cola: 1886-1892 Atlanta Beginnings: It was 1886, and in New York Harbour, workers were constructing the Statue of Liberty. Eight hundred miles away, another great American symbol was about to be unveiled. Like many people who change history, John Pemberton, an Atlanta pharmacist, was inspired by simple curiosity."
+},
+{
+    "title":"Sprite",
+    "subTitle":"West Germany, 1959",
+    "description":"First introduced in 1961, crisp, refreshing, clean-tasting Sprite is now the world's leading lemon and lime flavoured soft drink and is sold in more than 190 different countries. Sprite Zero, part of our no sugar Zero range, offers the delicious lemon lime taste of Sprite without the sugar or calories."
+},
+{
+    "title":"Dr Pepper",
+    "subTitle":"Texas, 1885",
+    "description":"Dr Pepper's unique, sparkling blend of 23 fruit flavours has been around for well over a century and it's still the same, with that distinctive flavour you just can't quite put your tongue on. It was created by Texas pharmacist Charles Alderton in 1885. He gave a sample of the first ever batch to Wade Morrison, a local shop owner"
+},
+{
+    "x3dModelTitle":"CocaCola X3D Model",
+    "x3dCreationMethod":"This x3d model of the cocacola can has been created in 3ds Max, exported to VRML97 and converted, using the instant reality transcoders, to the X3D for display online.",
+    "title":"History of Cocacola",
+    "subTitle":"Atlanta Beginnings",
+    "description":"History of Coca Cola: 1886-1892 Atlanta Beginnings: It was 1886, and in New York Harbour, workers were constructing the Statue of Liberty. Eight hundred miles away, another great American symbol was about to be unveiled. Like many people who change history, John Pemberton, an Atlanta pharmacist, was inspired by simple curiosity."
+},
+{
+    "x3dModelTitle":"Sprite X3D Model",
+    "x3dCreationMethod":"This x3d model of the sprite has been created in 3ds Max, exported to VRML97 and converted, using the instant reality transcoders, to the X3D for display online.",
+    "title":"Sprite - Fanta klare Zitrone",
+    "subTitle":"First introduced in 1961",
+    "description":"The lemon-lime drink known today as Sprite was developed in West Germany in 1959 as Fanta Klare Zitrone and was introduced in the United States under the Sprite name in 1961 as a competitor to 7 Up."
+},
+{
+    "x3dModelTitle":"Dr Pepper X3D Model",
+    "x3dCreationMethod":"This x3d model of the Dr Pepper has been created in 3ds Max, exported to VRML97 and converted, using the instant reality transcoders, to the X3D for display online.",
+    "title":"Dr Pepper - Liquid Sunshine",
+    "subTitle":"23 Fruit Flavours",
+    "description":"Dr Pepper's unique, sparkling blend of 23 fruit flavours has been around for well over a century and it's still the same, with that distinctive flavour you just can't quite put your tongue on. It was created by Texas pharmacist Charles Alderton in 1885. He gave a sample of the first ever batch to Wade Morrison, a local shop owner"
+},
+{
+    "galleryTitle":"3D Images",
+    "galleryDescription":"This x3d model of the coke can, sprite bottle and dr pepper cup have been created in 3ds Max, exported to VRML97 and converted, using the instant reality transcoders, to the X3D for display online."
+},
+{
+    "cameraTitle":"Camera Views",
+    "cameraSubTitle":"This button select a range of X3D model viewpoints"
+}
+]
+}
